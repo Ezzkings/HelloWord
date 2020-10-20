@@ -1,5 +1,37 @@
+.head{
+    background-color:rgb(24, 190, 219);
+    position:relative;
+    overflow: hidden;
+}
 .container{
     background-color:cyan;
     position:relative;
     overflow: hidden;
 }
+.foot{
+    background-color:rgb(29, 47, 82);
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+}
+.copyright{
+    background-color: rgb(53, 43, 43);
+}
+.nav-item{
+    border-radius:10px;
+    transition-duration: 0.3s;
+}
+.nav-item:hover{
+    background-color: black;
+}
+.list{
+    float: left;
+    list-style: none;
+    box-sizing: border-box;
+    margin-right:100px!important;
+}
+
+/**/
+
+.title{text-align:center;}
+*{color:white;padding:0;margin:0;}

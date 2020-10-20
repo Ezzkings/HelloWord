@@ -4,13 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello Word</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/estilo.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="js/jquery-3.5.1.min"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
 </head>
 <body>
-    <header></header>
-    <section>
-        <h1>Hello Word</h1>
-        <p>I'm Enzzo Oliveira, this is a website using some tecnologies for make it more fun, and for my learning about programmation</p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Enzzo Oliveira</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#Home">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#AboutMe">About Me</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <header class="head">
+        <div id="Home">
+            <h1 class="title">Hello Word</h1>
+            <p>This is a website using some tecnologies for make it more fun, and for my learning about programmation, so just relax and enjoy it!</p>
+        </div>
+    </header>
+    <section class="container" id="AboutMe">
+        <h2 class="title">About Me</h2>
+        <p>Hi, I'm Enzzo Oliveira, a student of programmation that is learning web programmation, web design, android app and arduino systems.  </p>
     </section>
-    <footer></footer>
+    <footer class="foot d-flex justify-content-center align-items-stretch" id="Contact">
+        <div class="list">
+            <h4>Contact</h4>
+            <ul>
+                <a href="https://www.facebook.com/"><i class="fab fa-fw fa-facebook-f"></i></a>
+                <li><a>Instagram</a></li>
+                <li><a>Twitter</a></li>
+                <li><a>GitHub</a></li>
+            </ul>
+        </div>
+        <div class="list">
+            <h4>About</h4>
+            <p>Programmation is...</p>
+        </div>
+        <div class="list">
+            <h4>Terms and Services</h4>
+            <a href="#">Terms of Privacy</a><br>
+            <a href="#">Terms of Use</a><br>
+            <a href="#">Terms of Conditions</a><br>
+        </div>
+    </footer>
+    <div class="copyright title">Copyrigth &copy; 2020 Enzzo Oliveira</div>
 </body>
 </html>
