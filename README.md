@@ -1,2 +1,2 @@
-# first repository
-Hi this is my first repository on GitHub, justo for do add somethings! 
+# first repository on GitHub
+Hi this is my first repository on GitHub, justo for do somethings! 
