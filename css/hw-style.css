@@ -1,1 +1,37 @@
 *{padding:0;margin:0;}
+ 
+/*
+.main{
+    background-color: violet;
+    width: 100%;
+    height: 500px;
+    box-shadow:3px 3px 10px black;
+    border-radius:10px;
+    margin:auto;
+}*/
+
+.header{
+    background-color: red;
+    color: black;
+    text-align: center;
+}
+
+.section{
+    background-color: green;
+    color: black;
+}
+
+.tips{
+    background-color: brown;
+}
+
+.footer{
+    background-color: blue;
+    color: black;
+}
+
+.copyright{
+    background-color: maroon;
+    color: black;
+    font-size:16px;
+}
