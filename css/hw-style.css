@@ -1,33 +1,15 @@
 *{padding:0;margin:0;}
  
-/*
 .main{
-    background-color: violet;
-    width: 100%;
-    height: 500px;
-    box-shadow:3px 3px 10px black;
-    border-radius:10px;
-    margin:auto;
-}*/
+    background-color:-webkit-linear-gradient(red, green, blue);
+}
 
-.header{
-    background-color: red;
-    color: black;
+.text{
+    color:white;
     text-align: center;
-}
-
-.section{
-    background-color: green;
-    color: black;
-}
-
-.tips{
-    background-color: brown;
-}
-
-.footer{
-    background-color: blue;
-    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    padding:200px;
 }
 
 .copyright{
